@@ -1734,10 +1734,26 @@
 # print(time.localtime())
 # print(time.strftime("%m/%d/%y %H:%M:%S"))
 
-import datetime
-# print("오늘 날짜는 " , datetime.date.today())
+# import datetime
+# # print("오늘 날짜는 " , datetime.date.today())
 
-#timedelta :두 날짜 사이의 간격
-today = datetime.date.today()
-td = datetime.timedelta(days=100)
-print(" 우리가 만난지 100일은", today + td)
+# #timedelta :두 날짜 사이의 간격
+# today = datetime.date.today()
+# td = datetime.timedelta(days=100)
+# print(" 우리가 만난지 100일은", today + td)
+
+
+#quiz) 프로젝트 내에 나만의 시그니처를 남기는 모듈을 만드시오
+
+# 조건  : 모듈 파일명은 byme.py 로 작성
+# (모듈 사용 예제)
+
+import byme
+byme.sign()
+
+# (출력 예제)
+# 이 프로그램은 나도코딩에 의해 만들어 졌습니다.
+# 유튜브 : http://youtube.com
+# 이메일 : nadocoding@mail.com
+
+
